@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import Agricultor
+from .models import Agricultor, Cultivo
 
 class AgricultorSerializer(serializers.ModelSerializer):
     class Meta:
