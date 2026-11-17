@@ -13,7 +13,6 @@ class Cultivo(models.Model):
     TIPOS_OFERTA = [
         ('semilla', 'Semilla'),
         ('cosecha', 'Cosecha'),
-        ('plantula', 'Plántula'),
     ]
 
     nombre = models.CharField(max_length=100)
